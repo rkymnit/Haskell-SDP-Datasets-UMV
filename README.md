@@ -1,6 +1,5 @@
 # Haskell-SDP-Datasets-UMV
-# UMVforSDP
-An unsupervised Software Defect Prediction System in Functional Paradigm
+Unsupervised Software Defect Prediction in Haskell: A Metrics-Driven Ensemble Approach Using Function-Level Thresholding
 
 
 We have developed a primary script named "UMV_SDP_Main.R" to implement our proposed approach. Within this script, we handle tasks such as dataset reading and developing unsupervised majority voting (UMV) ensemble technique. UMV technique consists of the following steps: 1. Reducing the skewness of the SMs using three transformation techniques; 2. Calculating software metrics threshold; 3. Clustering and Labeling; 4. Metric selection and instance selection; 5. Machine learning model building and prediction; 6. Majority voting ensemble. Additionally, we have included the script "UMV_SDP_Main_Compare.R" for implementing the five standard supervised machine learning models (NB, SVM, KNN, RF, C5.0), four unsupervised machine learning models (KMS, NGC, HC, MBC) and six threshold based unsupervised SDP models (CLAMI, CLAMI+, ACL, TCLP, SQRT, CBRT). These supervised/unsupervised and threshold-based models encompass a range of machine-learning classification techniques, namely:
